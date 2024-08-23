@@ -52,22 +52,40 @@
             display: inline;
         }
 
-.floatleft {
-    float:left;
-}
+        .floatleft {
+            float:left;
+        }
 
-.floatright {
-    float:right;
-}
- 
-.floatend {
-    float:inline-end;
-}
- 
-.floatstart {
-    float:inline-start;
-}
- 
+        .floatright {
+            float:right;
+        }
+        
+        .floatend {
+            float:inline-end;
+        }
+        
+        .floatstart {
+            float:inline-start;
+        }
+        
+        .testParent {
+            width: 50%;
+            height: 50px;
+        }
+
+        .testChild {
+            width: 50%;
+        }
+
+        .border {
+            border: 1px solid red;
+        }
+
+        .container {
+            width: 800px;
+            margin: auto;
+        }
+
  </style>
 </head>
 
@@ -134,6 +152,14 @@
 
     </div>   
 
+
+<div class="container border">
+<div class="testParent border">
+    <div class="testChild border">
+        <p>test</p>
+    </div>
+</div>
+</div>
 
 
 
