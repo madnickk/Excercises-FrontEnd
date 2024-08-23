@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestSeite</title>
+
+
+    <!-- Style --> 
+     <style>
+
+        .parent {
+            border: 2px solid red;
+            margin-bottom: 50px;
+        }
+
+        .child {
+            border: 2px solid green;
+            height: 45px;
+            width: 275px;
+            margin: 0px 5px 5px 0px;
+        }
+
+        .child p {
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+        }
+
+        .flex > div {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            min-width: 150px;
+            max-width: 400px;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .inlineblock {
+            display: inline-block;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+.floatleft {
+    float:left;
+}
+
+.floatright {
+    float:right;
+}
+ 
+.floatend {
+    float:inline-end;
+}
+ 
+.floatstart {
+    float:inline-start;
+}
+ 
+ </style>
+</head>
+
+<body>
+    <h2>inline-block</h2>
+    <p>Diese Blöcke sind mit Inline-Block erstellt. <br>
+    Der rot umrandete Block ist Display:block, die grünen Blöcke sind Display:inline</Display:inline></p>
+    
+    <div class="parent block">
+        <p>Parent: display:block</p>
+        <div class="child inlineblock">
+            <p>Child: inline-block</p>
+        </div>
+
+        <div class="child inlineblock">
+            <p>Child: inline-block</p>
+        </div>
+
+        <div class="child inlineblock">
+            <p>Child: inline-block</p>
+        </div>
+
+        <div class="child inlineblock">
+            <p>Child: inline-block</p>
+        </div>
+
+    </div>    
+
+    <h2>flex</h2>
+    <p>Diese Blöcke sind mit flex erstellt. <br>
+    Der rot umrandete Block ist Display:flex, die grünen Blöcke sind Display:inline</Display:inline></p>
+    
+    <div class="parent flex">
+        <div class="child flex">
+            <p>Child: flex</p>
+        </div>
+
+        <div class="child flex">
+            <p>Child: flex</p>
+        </div>
+
+        <div class="child flex">
+            <p>Child: flex</p>
+        </div>
+
+        <div class="child flex">
+            <p>Child: flex</p>
+        </div>
+
+    </div>   
+
+    <h2>Block & Float</h2>
+    <p>Parent Block ist ein Block, child Blöcke sind display:inline-block<br>
+        aber da die Blöcke zusätzlich float haben, ist der parent-block "leer"</p>
+    
+    <div class="parent block">
+        <div class="child inline-block floatleft ">
+            <p>inline-block</p>
+        </div>
+
+        <div class="child inline-block floatright">
+            <p>inline-block</p>
+        </div>
+
+    </div>   
+
+
+
+
+</body>
+</html>
