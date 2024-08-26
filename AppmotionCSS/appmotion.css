@@ -1,9 +1,10 @@
 /***  ALLGEMEIN  ***/
 
 * {
-    font-family: "dover", sans-serif;
+    font-family: "dover sans", sans-serif;
     font-size: 100%;
     font-weight: 400;
+    line-height: 1.5em;
     color: #000000;
     margin: 0px;
     padding: 0px;
@@ -17,16 +18,30 @@ body {
 
 h1 {
     font-size: 4rem;
-    font-family: dover, sans-serif;
+    line-height: 1.5em;
     text-transform: uppercase;
-    font-weight:900;
+    font-weight:400;
     text-align: left;
 } 
 
+h2 {
+    font-size: 3rem;
+    line-height: 1.15em;
+    text-transform: uppercase;
+    font-weight:900;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.15em;
+    text-transform: uppercase;
+    font-weight:700;
+    text-align: left;
+}
 
 p {
     font-size: 2.75 em;
-    font-family: dover, sans-serif;
     margin: 2% 0%;
     text-align: left;
 }
@@ -42,7 +57,7 @@ p {
 /* navigation */
 .navbar {
     display:block;
-    background:white;
+    background: transparent;
     height: 100px;
     margin-bottom: 50px;
     padding: 0% 5%;
@@ -50,7 +65,6 @@ p {
 
 .navbar #logo {
     display: inline-block;
-    font-family:sans-serif;
     text-transform:uppercase;
     font-size: large;
     font-weight: 600;
@@ -103,22 +117,36 @@ p {
 
 }
 
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.13em;
+    font-style: italic;
+    text-transfo400;
+    text-align: left;
+} 
+
+.hero h1 strong {
+    font-weight:900;
+    font-style:normal;
+}
+
 .hero p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: dover, sans-serif;
     font-style: italic;
-    line-height: 50px;
+    line-height: 1.5em;
     margin: 100px 0px;
 }
 
 .button { 
+    font-size: 1.25rem;
     width: 300px;
-    height: 70px;
+    height: 60px;
     border-radius: 50px;
     background-color: #6f4eff;
     color: white;
     border: 0;
-    font-size: 1.25rem;
+
 }
 
 .button:hover { 
@@ -131,19 +159,62 @@ p {
 .threeRow {
     display: block;
     text-align: center;
-    margin: 150px 0;
+    margin: 150px auto;
+}
+
+.threeBox {
+    display: inline-block;
+    margin: 3%;
+    padding: 0;
 }
 
 .threeTitle {
-    font-size: 2rem;
-    text-align: center;
     margin: 35px;
 }
 
-.TeaserList {
-    display: inline-block;
-    width: 250px;
-    margin: 10px 50px;
+.threeBox h3 {
+    text-align: center;
+    margin: 7% 0%;
+}
+
+.threeBox p {
+    text-align: center;
+}
+
+.teaserText {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.teaserTextBig {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 10% 0%;
+}
+
+.emoji {
+    text-align: center;
+    font-size: 6rem;
+    line-height: 1em;
+    padding: 0%;
+    margin: 0%;
+}
+
+.threeTitle p {
+    font-size: 2.5rem;
+    line-height: 1em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.threeTitle p:first-child {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+
 }
 
 .threeRow ul {
@@ -152,10 +223,21 @@ p {
 
 .threeRow li {
     margin: 10px 0px;
+    font-size: 1.15rem;
 }
+
+.framed {
+    background-color: #f2f3f7;
+    border: white solid 1px;
+    border-radius: 50px;
+    width: 250px;
+    padding: 6% 2%;
+}
+
 
 .textLink{
     text-align: center;
+    font-size: 1.15rem;
     margin: 35px;
 }
 
@@ -164,7 +246,46 @@ p {
 }
 
 
+.textrow {
+    text-align: center;
+}
 
+.textrow p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+}
+
+
+.twoRow {
+    display: inline-block;
+    margin: 7% 0;
+}
+
+.twoBox {
+    display: inline-block;
+    width:fit-content;
+}
+
+.twoBox img{
+    display: inline-block;
+    border-radius: 50px;
+    width: 585px;
+    height: 585px;
+    
+}
+
+.twoBoxText {
+    display: inline-block;
+    width: 35%;
+    margin: 5% 5%;
+    min-width: 300px;
+}
+
+
+.twoBoxTextLeft{
+
+}
 
 .float-right {
     float: right;
@@ -180,4 +301,9 @@ p {
 
 .clear-left {
     clear: left;
+}
+
+.footer {
+  display:block;
+  height: 650px; 
 }
