@@ -24,11 +24,20 @@ body {
     margin: 2% 0;
 }
 
-.boxalternate {
+.box-alternate {
     padding: 1% 2%;
     height: auto;
     width: 800px;
     max-width: 90vw;
+    background-color:cadetblue;
+    color: white;
+    margin: 2% 0;
+}
+
+.box-clamp {
+    padding: 1% 2%;
+    height: auto;
+    width: clamp(400px, 50vw, 800px);
     background-color:cadetblue;
     color: white;
     margin: 2% 0;
