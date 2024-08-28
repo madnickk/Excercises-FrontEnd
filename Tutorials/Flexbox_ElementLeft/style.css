@@ -1,0 +1,59 @@
+body {
+    min-height: 800px;
+    border: black solid 3px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 10px; /* 20px gap zeile, 5px gap spalte*/
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #0071ff;
+    font-size: 40pt;
+
+    /* Responsive */
+    flex-shrink: 1;
+
+    /* Kontrolliert den Inhalt der Boxen */
+    display: flex;
+    align-items:center; /* Vertikal */
+    justify-content: center; /* Horizontal */
+}
+
+
+#box-1 {
+    margin-right: auto;
+}
+
+
+.box-grow {
+    flex-grow: 1;
+}
+
+
+.max-width {
+    max-width: 250px;
+}
+
+
+.min-width {
+    min-width: 150px;
+}
+
+
+@media(max-width:575px)  {
+    .flex {
+        flex-wrap: wrap;
+    }
+}
