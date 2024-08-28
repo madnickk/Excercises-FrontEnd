@@ -1,0 +1,35 @@
+
+div {
+    width: 50vw;
+    height: 15vw;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    margin: 5px;
+    background-color:var(--main)
+}
+
+.farbe1 {
+    background-color: var(--farbe1);
+    
+}
+
+.farbe2 {
+    background-color: var(--farbe2);
+    
+}
+
+.farbe3 {
+    background-color: var(--farbe3);
+    
+}
+
+.farbe4 {
+    background-color: var(--farbe4);
+    
+}
+
+.fontwhite {
+    color:white;
+}
+

@@ -1,0 +1,17 @@
+:root { 
+    --main: #c8d6e5;
+    --farbe1: #f368e0;
+    --farbe2: #01a3a4;
+    --farbe3: #222f3e;
+    --farbe4: #000000;
+
+    --font-size-m: 1rem;
+    --font-size-s: 0.75rem;
+    --font-size-l: 1.25rem;
+    --font-size-xl: 1.5rem;
+}
+
+
+h1 {
+    --farbe1: #2e86de;
+}
