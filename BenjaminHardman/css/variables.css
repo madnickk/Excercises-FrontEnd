@@ -1,0 +1,32 @@
+:root {
+    
+    /* Font Size */
+    --font-xs: 0.5rem;
+    --font-s: 0.75rem;
+    --font-m: 1rem;
+    --font-l: 2rem;
+    --font-xl: 4rem;
+    --font-logo: 1.25rem;
+
+    /* line Heigth */
+    --font-line-m: 1.5em;
+    --font-line-s: 1em;
+    --font-line-l: 2em;
+
+
+    /* Font Weight */
+    --font-weight-regular:400;
+    --font-weight-thin:200;
+    --font-weight-strong:600;
+    --font-weight-verystrong:900;
+
+    /*color*/
+    --color-main: #EDF6F9;
+    --color-dark: #0b132b;
+    --color-color1-light: #83C5BE;
+    --color-color1-dark: #006D77;
+    --color-color2-light: #FFDDD2;
+    --color-color2-dark: #E29578;
+}
+
+
