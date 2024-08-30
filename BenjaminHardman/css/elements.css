@@ -1,0 +1,48 @@
+/* ELEMENETE */
+
+/* IMG Container Homepage */
+.img-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5%;
+    background-color:rgba(125 125 125 0);
+    z-index: 1;
+}
+
+.pictures {
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+}
+
+.panel h3 {
+    visibility: hidden;
+    position: absolute;
+    top: 15px;
+    margin: auto;
+    width: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--color-main);
+}
+
+.active {}
