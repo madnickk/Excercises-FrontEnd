@@ -18,6 +18,7 @@ nav {
     gap: 3%;
     letter-spacing: 1px;
 }
+
 #logo {
     margin: auto;
     font-size: var(--font-logo);
