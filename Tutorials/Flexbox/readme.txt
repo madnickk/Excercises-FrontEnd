@@ -21,13 +21,16 @@ Mit align-self kann man auch direkt in die Boxen gehen und diese Positionieren.
 
 align-items, weil man mehrere Zeilen von Boxen haben haben. Und diese werden algined.
 
-Nutzt man flex-Direction: columns, dann ändert sich auch die Cross-Achse. Um zu zentrieren nutzt man nun align-itmes, und nicht mehr justify content.
+utzt man flex-Direction: columns, dann ändert sich auch die Cross-Achse. Um zu zentrieren nutzt man nun align-itmes, und nicht mehr justify content.
 Flex-Direction ändert aöso die Richtung der Main-Achse.
 
 
 gap: 
 Mit gap erstellt man eine Lücke, ähnlich wie margin
-Gap erstellt Lücken zwischen Zeilen und Spalten, während Margin Space um HTML-Elemente herum kreiert.
+Gap erstellt Lücken zwischen Zeilen udn Spalten, wärehend Margin Space um HTML-Elemente herum kreiert.
+
+Gap kann ich row-gap und column-gap aufgeteilt werden, aber es geht auch nur mit gap. 
+
 
 flex-wrap: 
 macht die website respsonive. 
@@ -45,19 +48,5 @@ So kann man Abstände zwischen zeilen harmonisieren.
 align-itmes kontrolliert die Achsen der einzelnen flex-box reihen.
 
 
-##RESPONSIVE
-Das Verhalten der Itemes selbst veränder. 
-
-flex-shrink: Definiert die Größenveränderung. Ein Wert von 0 zum Beispiel sagt, die Boxen verkleinern sich gar nicht. 
-mit 0 kein Shrink mit 1 Shrink. 
-
-flex-grow: Die Elemente werden immer veruschen, den verfügbaren Inhalt auszufüllen. 
-
-Die Zahlen können als boolean verwendet werden, wenn man 0 und 1 eingibt. Aber auch als Multiplayer, wenn man unterscheidlichen Boxen unterschiedliche Werte gibt. 
-
-Mit max-width kann man die maximale Breite definieren. 
 
 
-align-self: aligned die angesprochene Box.
-
-Will man nun eine Box rechts haben, geht das mit margin-right: auto;
