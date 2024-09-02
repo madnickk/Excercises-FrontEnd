@@ -1,0 +1,10 @@
+/* STRUKTURELLES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 95vw;
+}

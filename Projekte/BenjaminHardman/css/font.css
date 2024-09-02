@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+
+* {
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    font-weight: var(--font-weight-regular);
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+}
+
+h1 {
+    font-family: "New Amsterdam", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--font-xl);
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: "New Amsterdam", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--font-l);
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-family: "New Amsterdam", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--font-l);
+    letter-spacing: 5px;
+}
