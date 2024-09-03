@@ -23,7 +23,7 @@
     text-align: center;
     padding: 10% 2%;
     background-color:rgba(125 125 125 0);
-
+    cursor: pointer;
 }
 
 .arrows:hover {
@@ -31,7 +31,6 @@
     backdrop-filter: blur(2px);
     background-color: rgba(255, 255, 255, 0.1);
     transition: 500ms;
-
 }
 
 .pictures {
@@ -46,13 +45,21 @@
     margin: auto;
     z-index: 0;
     overflow: hidden;
+    align-items: center;
+    display: flex;
 }
 
-.panel img {
-    width: 100%;
+.slide {
+    max-width: 100% ;
     height: auto;
-    object-fit: cover;
-    object-position: bottom;
+}
+
+.active {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .panel h3 {
