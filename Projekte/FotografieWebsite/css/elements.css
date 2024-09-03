@@ -60,6 +60,8 @@
 
 .hidden {
     visibility: hidden;
+    background-color: transparent;
+    opacity: 0%;
 }
 
 .panel h3 {

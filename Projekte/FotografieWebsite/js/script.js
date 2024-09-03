@@ -4,28 +4,24 @@ const slides = document.querySelectorAll('.slide')
 
 
 let currentActive = 0
+console.log(currentActive);
 
 next.addEventListener('click', () => {
     currentActive++
 
-    if (currentActive >= slides.length) {
+    if (currentActive > slides.length) {
         currentActive = 0
     }
-    
     update()
-    console.log(currentActive);
-
 })
 
 prev.addEventListener('click', () => {
     currentActive--
 
     if (currentActive < 1) {
-        currentActive = 0
+        currentActive = slides.length
     }
     update()
-    console.log(currentActive);
-
 })
 
 

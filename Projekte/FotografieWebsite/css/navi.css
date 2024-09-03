@@ -2,8 +2,9 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    align-content: space-around;
-    margin: 20px 5vw;
+    align-content: space-between;
+    margin: 40px 5vw;
+    text-transform: uppercase;
 }
 
 .nav-header {
@@ -24,7 +25,7 @@ nav {
     font-size: var(--font-logo);
     font-weight: 900;
     line-height:var(--font-line-s);
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-decoration: none;
 }
 
